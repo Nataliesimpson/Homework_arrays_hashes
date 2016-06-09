@@ -1,6 +1,6 @@
 #A
 
-#lines = ['Gyle Centre', 'Edinburgh Park', 'Murrayfield Stadium', 'Haymarket', 'Princes Street']
+lines = ['Gyle Centre', 'Edinburgh Park', 'Murrayfield Stadium', 'Haymarket', 'Princes Street']
 
 #1 Work out how many stops there are in the current west array
 # puts lines.size
@@ -38,7 +38,13 @@
 #   puts stops
 # end
 
+# counter = 0
 
+# while counter < lines.length
+#   puts lines[counter]
+#   counter +=1
+
+# end   
 
 #B 
 
@@ -111,7 +117,7 @@ users = {
 # puts users["Erik"][:favourite_numbers][0]
 
 #6 Return an array of Avril's favorite numbers that are even 
-## puts users["Avril"][:favourite_numbers].even?
+# puts users["Avril"][:favourite_numbers].map { |n| n if n % 2 == 0 }.compact
 
 #7 Return an array of Jonathans favourite numbers, sorted in ascending order and excluding duplicates
 
@@ -121,9 +127,11 @@ users = {
 # print users["Erik"][:favourite_numbers].push(7)
 
 #9 Change Erik's hometown to Edinburgh
-# print users["Erik"][:hometown => "Edinburgh"]
+# print users["Erik"][:hometown] = "Edinburgh"
 
 #10 Add a pet dog to Erik called "Fluffy"
+
+
 
 
 
